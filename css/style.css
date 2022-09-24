@@ -4,6 +4,10 @@
 .u-mg-left {
   margin-right: 2rem; }
 
+.nav-link {
+  text-decoration: none;
+  color: #262626; }
+
 *,
 *::before
 *::after {
@@ -191,6 +195,7 @@ body {
     color: #777; }
 
 .copyright {
+  padding: 0px 20px;
   display: flex;
   justify-content: space-between; }
   .copyright__english {
@@ -250,6 +255,7 @@ body {
 .section-intro {
   height: 90vh;
   background-image: url(../../img/Xbox-Family.jpeg);
+  background-repeat: no-repeat;
   margin-top: -1rem; }
 
 .section-services {
@@ -282,6 +288,6 @@ body {
   padding: 0 5rem; }
 
 .section-footer {
-  height: 67vh;
+  padding: 30px 0px;
   margin-top: 5rem;
   background-color: #f0eeee; }
