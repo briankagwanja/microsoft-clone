@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+    
+    &__details {
+        display: block;
+        position: absolute;
+        top: 18.5rem;
+        left: 11.5rem;
+    }
+}

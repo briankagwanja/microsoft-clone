@@ -1,0 +1,287 @@
+.u-mg-right {
+  margin-right: 2rem; }
+
+.u-mg-left {
+  margin-right: 2rem; }
+
+*,
+*::before
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box; }
+
+.heading1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-weight: 600; }
+
+.heading3 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-weight: 600; }
+
+.heading4 {
+  color: #777;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 3.85rem; }
+
+.paragraph {
+  width: 75%;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  margin-bottom: 3rem;
+  overflow-wrap: normal; }
+
+.business {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem; }
+  .business__items {
+    display: block; }
+  .business__paragraph {
+    width: 100%; }
+  .business__btn {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 2rem; }
+    .business__btn:not(:last-child) {
+      margin-bottom: 2rem; }
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .button__btn {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #135FCB;
+    border: none;
+    cursor: pointer; }
+    .button__btn:not(:last-child) {
+      margin-right: 2rem; }
+    .button__btn--active {
+      border: none;
+      padding: 1rem 2rem;
+      color: #fff;
+      background-color: #135FCB; }
+      .button__btn--active:hover {
+        background-color: #033E92; }
+    .button__btn--normal {
+      background-color: transparent;
+      color: #135FCB;
+      display: inline-block;
+      transition: all .2s; }
+    .button__btn span {
+      margin-left: 5px;
+      transition: margin-left .2s; }
+    .button__btn:hover {
+      border-bottom: 2px solid #135FCB; }
+      .button__btn:hover span {
+        margin-left: 10px; }
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem; }
+  .card__content {
+    display: block; }
+  .card__paragraph {
+    width: 100%; }
+  .card__shop-now {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 2rem; }
+    .card__shop-now:not(:last-child) {
+      margin-bottom: 2rem; }
+
+.follow {
+  display: inline-block;
+  display: flex;
+  align-items: center; }
+  .follow__paragraph {
+    font-size: 1.6rem;
+    margin-right: 1rem; }
+  .follow__icons {
+    display: flex;
+    fill: #262626;
+    margin-right: 2rem; }
+  .follow__facebook {
+    height: 2rem;
+    width: 2rem; }
+  .follow__twitter {
+    height: 2rem;
+    width: 2rem; }
+  .follow__linkedin {
+    height: 2rem;
+    width: 2rem; }
+
+.service {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  display: block;
+  display: flex; }
+  .service__content {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .service__icon {
+    height: 4.5rem;
+    width: 4.5rem;
+    margin-bottom: 1rem;
+    color: #262626;
+    grid-column: 1 / -1;
+    align-self: center; }
+  .service__link {
+    font-weight: 700;
+    font-size: 1.5rem;
+    grid-column: 1 / -1; }
+
+.container {
+  position: relative; }
+  .container__details {
+    display: block;
+    position: absolute;
+    top: 18.5rem;
+    left: 11.5rem; }
+
+.vote {
+  position: relative; }
+  .vote__details {
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 18.5rem;
+    left: 11.5rem; }
+  .vote__paragraph {
+    font-size: 1.5rem;
+    width: 45%;
+    line-height: 2.5rem;
+    margin-bottom: 2rem; }
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 2rem; }
+  .footer__list {
+    font-size: 1.2rem;
+    list-style: none; }
+  .footer__item {
+    margin-bottom: 2rem; }
+  .footer__link {
+    text-decoration: none;
+    color: #777; }
+
+.copyright {
+  display: flex;
+  justify-content: space-between; }
+  .copyright__english {
+    display: flex;
+    align-items: center; }
+  .copyright__globe {
+    height: 2rem;
+    width: 2rem;
+    fill: #777; }
+  .copyright__list {
+    list-style: none; }
+  .copyright__link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+    margin-left: 2rem;
+    padding: 2rem 0;
+    color: #777; }
+
+.navigation {
+  height: 3rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex; }
+  .navigation__img {
+    height: 2.5rem;
+    margin-left: 1.5rem; }
+  .navigation__list {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    align-items: center; }
+  .navigation__item {
+    font-size: 1.3rem;
+    list-style: none; }
+    .navigation__item:not(:last-child) {
+      margin-right: 2.5rem; }
+  .navigation__link {
+    text-decoration: none;
+    color: #262626; }
+    .navigation__link:hover {
+      border-bottom: 2px solid #262626; }
+    .navigation__link:active {
+      outline: 1.5rem dotted #262626; }
+  .navigation__links2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10rem;
+    margin-top: 0.8rem; }
+    .navigation__links2 :first-child {
+      margin-right: 0; }
+  .navigation__icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    fill: currentColor; }
+
+.section-intro {
+  height: 90vh;
+  background-image: url(../../img/Xbox-Family.jpeg);
+  margin-top: -1rem; }
+
+.section-services {
+  margin-top: 5rem;
+  margin-bottom: -12rem;
+  padding: 1rem 2rem; }
+
+.section-cards {
+  padding: 0 5rem; }
+
+.section-nextpc {
+  height: 100vh;
+  margin: 8rem 5rem;
+  background-image: url(../../img/lp3.jpeg);
+  background-repeat: no-repeat; }
+
+.section-business {
+  margin-top: -2rem;
+  padding: 0 5rem; }
+
+.section-vote {
+  height: 80vh;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-image: url(../../img/vote.jpeg); }
+
+.section-follow {
+  margin-top: 5rem;
+  padding: 0 5rem; }
+
+.section-footer {
+  height: 67vh;
+  margin-top: 5rem;
+  background-color: #f0eeee; }

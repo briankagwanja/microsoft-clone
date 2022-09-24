@@ -1,0 +1,52 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__btn {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: $color-primary;        
+        border: none;
+        cursor: pointer;
+
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+
+        &--active {
+            border: none;
+            padding: 1rem 2rem;
+            color: #fff;
+            background-color: $color-primary;
+
+            &:hover {
+                background-color: $color-primary-dark;
+            }
+
+        }
+
+
+
+        &--normal{
+            background-color: transparent;
+            color: $color-primary;
+            
+            display: inline-block;
+            transition: all .2s;
+        }
+
+        & span {
+            margin-left: 5px;
+            transition: margin-left .2s;
+        }
+
+        &:hover {
+            border-bottom: 2px solid $color-primary;
+            & span {
+                margin-left: 10px;
+                
+            }
+        }
+    }
+}

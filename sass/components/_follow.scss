@@ -1,0 +1,35 @@
+.follow {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    
+    &__paragraph {
+        font-size: 1.6rem;
+        margin-right: 1rem;
+    }
+
+    &__icons {
+        display: flex;
+        fill: $color-black;
+        margin-right: 2rem;
+
+    }
+
+    &__facebook {
+        height: 2rem;
+        width: 2rem;
+        
+    }
+
+    &__twitter {
+        height: 2rem;
+        width: 2rem;
+        
+    }
+
+    &__linkedin {
+        height: 2rem;
+        width: 2rem;
+        
+    }
+}

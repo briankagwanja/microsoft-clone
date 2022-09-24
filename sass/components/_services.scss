@@ -1,0 +1,36 @@
+.service {
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+
+    display: block;
+    display: flex;
+   
+    &__content {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        justify-items: center;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__icon {
+        height: 4.5rem;
+        width: 4.5rem;
+        margin-bottom: 1rem;
+        color: $color-black;
+        grid-column: 1 / -1;
+        align-self: center;
+        
+    }
+
+    &__link {
+        font-weight: 700;
+        font-size: 1.5rem;
+        grid-column: 1 / -1;
+    }
+}
