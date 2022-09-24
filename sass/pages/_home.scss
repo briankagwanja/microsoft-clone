@@ -1,6 +1,7 @@
 .section-intro {
     height: 90vh;
     background-image: url(../../img/Xbox-Family.jpeg);
+    background-repeat: no-repeat;
     margin-top: -1rem;
 }
 
@@ -42,7 +43,7 @@
 }
 
 .section-footer {
-    height: 67vh;
+    padding: 30px 0px;
     margin-top: 5rem;
     background-color: $color-grey-light-1;
 }
